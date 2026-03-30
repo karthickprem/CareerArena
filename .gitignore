@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pip_libs/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Databases (generated, not source)
+*.db
+*.db-shm
+*.db-wal
+*.db.bak
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+output/
+
+# Test databases
+test_*.db
+
+# Node (frontend has its own .gitignore)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Tools
+tools/
